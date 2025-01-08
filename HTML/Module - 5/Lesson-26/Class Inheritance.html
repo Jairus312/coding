@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <body>
+        <p id="details"></p>
         <script>
             class Car {
                 constructor(brand){
@@ -9,7 +10,7 @@
 
             
             present(){
-                return'I have a' + this.carname
+                return'I have a' + this.carname;
             }
         }
         class Model extends Car{
@@ -18,11 +19,11 @@
                 this.Model = mod;
             }
             show(){
-                return this.present() + ', it is a' + this.model;
+                return this.present() + ', it is a ' + this.model;
             }
         }
-        let myCar = new Model("Ford","Mustung");
-        document.getElementById("details").innerHTML = myCar.show
+        let myCar = new Model(" Ford"," Mustung ");
+        document.getElementById("details").innerHTML = myCar.show()
         </script>
     </body>
 </html>
