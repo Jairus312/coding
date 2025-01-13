@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="Sum"></p>
+        <script>
+            async function add(a,b){
+            let response = await a + b;
+            display(response);
+            }
+            function display(some) {
+                document.getElementById("Sum").innerHTML = some;
+            }
+            add(5,20);
+        </script>
+    </body>
+</html>
