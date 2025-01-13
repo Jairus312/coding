@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="ADD"></p>
+        <script>
+            function myDisplayer(value) {
+                document.getElementById("ADD").innerHTML = value;
+            }
+            function myCalculator(num1,num2,myCallback) {
+                let sum = num1 + num2;
+                myCallback(sum);
+            }
+            myCalculator(5,5,myDisplayer);
+        </script>
+    </body>
+</html>
