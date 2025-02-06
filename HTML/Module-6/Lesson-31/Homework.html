@@ -6,47 +6,47 @@
     <script>
         var choice = prompt(
          " Perimeter(or) Area. \n Please Enter Your Choice. \n Area \n Perimeter")
-         if(choice == "Area");
-          var choice = prompt(
-                "1.RECTANGLE \n 2.TRIANGLE \n 3.CIRCLE \n 4.PARALLELOGRAM"
-             if (choice == "1") {
+         if(choice == "Area"){
+          var choice2 = prompt(
+                "1.RECTANGLE \n 2.TRIANGLE \n 3.CIRCLE \n 4.PARALLELOGRAM")
+             if (choice2 == "1") {
                 var l = prompt("Enter The Length");
                 var b = prompt("Enter The Breadth");
                 var result = Number(l) * Number(b);
                 document.write("The Area Of The Rectange Is : " + result);
                 }
-             if (choice == "2") {
+             if (choice2 == "2") {
                 var h = prompt("Enter The Height");
                 var b = prompt("Enter The Base");
                 var result = (Number(h) * Number(b)) / 2;
                 document.write("The Area Of The Triangle Is : " + result);
                 }
 
-            if (choice == "3") {
+            if (choice2 == "3") {
                 var r = prompt("Enter The Radius");
                 var result = 3.14 * Number(r) * Number(r);
                 document.write("The Area Of The Circle Is : " + result);
                 }
 
-            if (choice == "4") {
+            if (choice2 == "4") {
                 var h = prompt("Enter The height");
                 var cb = prompt("Enter The corresponding base");
                 var result = Number(h) * Number(cb);
                 document.write("The Area Of The Parallelogram Is : " + result);
                 }
-            )
+            
+            }
         
-        
-        if(choice == "Perimeter");
-         var choice = prompt(
-                "1.RECTANGLE \n 2.TRIANGLE \n 3.CIRCLE \n 4.PARALLELOGRAM"
-            if (choice == "1") {
+        if(choice == "Perimeter"){
+         var choice3 = prompt(
+                "1.RECTANGLE \n 2.TRIANGLE \n 3.CIRCLE \n 4.PARALLELOGRAM")
+            if (choice3 == "1") {
                 var l = prompt("Enter The Length");
                 var b = prompt("Enter The Breadth");
                 var result = 2(Number(l) + Number(b));
                 document.write("The Area Of The Rectange Is : " + result);
             }
-            if (choice == "2") {
+            if (choice3 == "2") {
                 var a= prompt("Enter The a");
                 var b = prompt("Enter The b");
                 var c = prompt("Enter The c");
@@ -54,19 +54,20 @@
                 document.write("The Area Of The Triangle Is : " + result);
             }
 
-            if (choice == "3") {
+            if (choice3 == "3") {
                 var r = prompt("Enter The Radius");
                 var result = 2(3.14) * Number(r);
                 document.write("The Area Of The Circle Is : " + result);
             }
 
-            if (choice == "4") {
+            if (choice3 == "4") {
                 var h = prompt("Enter The height");
                 var cb = prompt("Enter The corresponding base");
                 var result = 2(Number(h) * Number(cb));
                 document.write("The Area Of The Parallelogram Is : " + result);
             }
-        )
+        }
+        
     </script>
 </body>
 
