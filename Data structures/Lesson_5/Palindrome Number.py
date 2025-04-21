@@ -8,7 +8,7 @@ while Number > 0:
     Number //= 10
 
 if original_number == reversed_number:
-    print(f"{original_number} is a panlindrome.")
+    print(f"{original_number    } is a panlindrome.")
 
 else:
     print(f"{original_number} is not a panlindrome.")
