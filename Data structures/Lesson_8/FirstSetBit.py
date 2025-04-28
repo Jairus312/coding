@@ -8,4 +8,3 @@ def FirstSetBit(number):
     return position 
 number = int(input("enter your number :"))
 print("position of the first set bit : ",FirstSetBit(number))
-1
