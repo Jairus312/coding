@@ -1,5 +1,4 @@
 def powerOf8(number):
-	
 	bitPosition = 0
 	mask = 1
 	
