@@ -4,3 +4,4 @@ def fac(n):
     return n*fac(n - 1)
 n = int(input("Enter your number :-"))
 print("Fatorial of", n,"is :",fac(n))
+print("The time complexity of recursive function is O(log n)")#
