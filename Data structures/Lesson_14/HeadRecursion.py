@@ -3,7 +3,7 @@ def headrec(n,num):
     if n > num:
         return
     #Recursive call with the next value
-    headrec(n + 1, num)
+    headrec(n + 1, )
     #print the current value of n after returning from the recurvise call 
     print(n)
 
